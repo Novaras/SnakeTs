@@ -1,5 +1,4 @@
 import Vec2 from './Vec2';
-import Snake from './Snake';
 
 type Loggish = Vec2[] | Vec2Log;
 

@@ -1,7 +1,6 @@
-import Vec2, { Direction } from "./Vec2";
-import Vec2Log from './Vec2Log';
 import Snake from "./Snake";
 import Grid from "./Grid";
+import { Direction } from "./Vec2";
 
 export enum InterruptCode { EXIT, PAUSE, RESET, NONE };
 enum GameState { GAME_OVER, RUNNING, PAUSED, MENU };
